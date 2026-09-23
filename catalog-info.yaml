@@ -1,5 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+
+metadata:
+  name: backstage
+  description: Wayne's Backstage developer portal
+
+spec:
+  type: website
+  owner: wayne
+  lifecycle: developmentapiVersion: backstage.io/v1alpha1
+kind: Component
 metadata:
   name: backstage
   description: An example of a Backstage application.
